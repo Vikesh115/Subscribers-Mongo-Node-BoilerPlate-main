@@ -5,8 +5,10 @@ const Subs = require("./models/subscribers");
 const data = require("./data");
 // Your code goes here
 
+app.use(express.static(path.join(__dirname, "public")));
+
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "/index.html"));
+    res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
 // post subscribers to database
