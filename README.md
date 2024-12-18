@@ -28,7 +28,7 @@
 ### Run
 Git commands: 
 
-git clone 
+git clone  https://github.com/Vikesh115/Youtube-Subscribers-Project.git
 npm istall
 
 node src/createDatabase.js
