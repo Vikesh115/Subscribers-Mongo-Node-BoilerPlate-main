@@ -7,6 +7,7 @@
 
 ### APIs
 
+- "/docs" : Get Backend Documentation.
 - "/" : This default route will render "index.html" file.
 - "/subscribers" : This will respond with an array of subscribers.
 - "/subscribers/name" : This will respond with an array of subscribers with only two fields, name and subscribedChannel.
