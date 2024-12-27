@@ -26,6 +26,12 @@
 - nodemon
 - MongoDb
 
+### devDependencies
+- jest
+- supertest
+- swagger-jsdoc
+- swagger-ui-express
+
 ### Run
 Git commands: 
 
@@ -34,6 +40,9 @@ npm istall
 
 node src/createDatabase.js
 nodemon index.js
+
+### test
+- npx jest
 
 ### Project created by
 Vikesh Raut
